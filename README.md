@@ -17,7 +17,7 @@
 库名 | 作用
 -- | --
 minimist | 对象化命令行参数
-mysql2 | mysql 的 nodejs客户端，相比 mysql 增加了对 promise 和 prepared语句 的支持
+mysql2 | mysql 的 nodejs客户端，相比 mysql 增加了对 promise 和 prepared语句 的支持
 
 
 # 开发日记
@@ -33,7 +33,7 @@ mysql2 | mysql 的 nodejs客户端，相比 mysql 增加了对 promise 和 prep
 > 防止sql注入攻击： https://stackoverflow.com/questions/8263371/how-can-prepared-statements-protect-from-sql-injection-attacks
 
 - 除了 require 时可以用相对路径，其它时候必须用 path.join, path.resolve, __dirname等
-> 执行代码的入口文件会变化：https://github.com/imsobear/blog/issues/48
+> 执行代码的入口文件会变化：https://github.com/imsobear/blog/issues/48
 
 
 
